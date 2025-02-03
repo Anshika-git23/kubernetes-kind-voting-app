@@ -4,6 +4,7 @@ metadata:
   labels:
     app: db
   name: db
+  namespace: my-namespace
 spec:
   type: ClusterIP
   ports:
